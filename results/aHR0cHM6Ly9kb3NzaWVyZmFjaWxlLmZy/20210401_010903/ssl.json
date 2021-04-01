@@ -1,0 +1,65 @@
+{
+  "host": "dossierfacile.fr",
+  "port": 443,
+  "protocol": "http",
+  "isPublic": false,
+  "status": "READY",
+  "startTime": 1617238964132,
+  "testTime": 1617239286255,
+  "engineVersion": "2.1.8",
+  "criteriaVersion": "2009q",
+  "endpoints": [
+    {
+      "ipAddress": "99.86.38.118",
+      "serverName": "server-99-86-38-118.sea19.r.cloudfront.net",
+      "statusMessage": "Ready",
+      "grade": "A",
+      "gradeTrustIgnored": "A",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 80709,
+      "eta": 15,
+      "delegation": 1
+    },
+    {
+      "ipAddress": "99.86.38.7",
+      "serverName": "server-99-86-38-7.sea19.r.cloudfront.net",
+      "statusMessage": "Ready",
+      "grade": "A",
+      "gradeTrustIgnored": "A",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 80705,
+      "eta": 11,
+      "delegation": 1
+    },
+    {
+      "ipAddress": "99.86.38.116",
+      "serverName": "server-99-86-38-116.sea19.r.cloudfront.net",
+      "statusMessage": "Ready",
+      "grade": "A",
+      "gradeTrustIgnored": "A",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 80307,
+      "eta": 8,
+      "delegation": 1
+    },
+    {
+      "ipAddress": "99.86.38.115",
+      "serverName": "server-99-86-38-115.sea19.r.cloudfront.net",
+      "statusMessage": "Ready",
+      "grade": "A",
+      "gradeTrustIgnored": "A",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 80248,
+      "eta": 4,
+      "delegation": 1
+    }
+  ]
+}
