@@ -81,7 +81,7 @@ ZAP Scanning Report
         <p>
 </p>
         <h3 class="left-header">Summary of Alerts</h3>
-        <h3 class="time-stamp">Generated on Thu, 1 Apr 2021 00:49:50</h3>
+        <h3 class="time-stamp">Generated on Fri, 2 Apr 2021 00:54:40</h3>
         <table width="45%" class="summary">
             <tr bgcolor="#666666">
                 <th width="45%" height="24">Risk 
@@ -120,13 +120,13 @@ ZAP Scanning Report
                 <td>X-Frame-Options Header Not Set</td><td align="center">Medium</td><td align="center">6</td>
             </tr>
             <tr bgcolor="#e8e8e8">
-                <td>Cookie No HttpOnly Flag</td><td align="center">Low</td><td align="center">2</td>
+                <td>Cookie No HttpOnly Flag</td><td align="center">Low</td><td align="center">3</td>
             </tr>
             <tr bgcolor="#e8e8e8">
-                <td>Cookie Without SameSite Attribute</td><td align="center">Low</td><td align="center">5</td>
+                <td>Cookie Without SameSite Attribute</td><td align="center">Low</td><td align="center">7</td>
             </tr>
             <tr bgcolor="#e8e8e8">
-                <td>Cookie Without Secure Flag</td><td align="center">Low</td><td align="center">5</td>
+                <td>Cookie Without Secure Flag</td><td align="center">Low</td><td align="center">7</td>
             </tr>
             <tr bgcolor="#e8e8e8">
                 <td>Cross-Domain JavaScript Source File Inclusion</td><td align="center">Low</td><td align="center">8</td>
@@ -135,7 +135,7 @@ ZAP Scanning Report
                 <td>Feature Policy Header Not Set</td><td align="center">Low</td><td align="center">8</td>
             </tr>
             <tr bgcolor="#e8e8e8">
-                <td>Incomplete or No Cache-control and Pragma HTTP Header Set</td><td align="center">Low</td><td align="center">9</td>
+                <td>Incomplete or No Cache-control and Pragma HTTP Header Set</td><td align="center">Low</td><td align="center">10</td>
             </tr>
             <tr bgcolor="#e8e8e8">
                 <td>Strict-Transport-Security Header Not Set</td><td align="center">Low</td><td align="center">11</td>
@@ -144,7 +144,7 @@ ZAP Scanning Report
                 <td>X-Content-Type-Options Header Missing</td><td align="center">Low</td><td align="center">7</td>
             </tr>
             <tr bgcolor="#e8e8e8">
-                <td>Base64 Disclosure</td><td align="center">Informational</td><td align="center">9</td>
+                <td>Base64 Disclosure</td><td align="center">Informational</td><td align="center">10</td>
             </tr>
             <tr bgcolor="#e8e8e8">
                 <td>Information Disclosure - Suspicious Comments</td><td align="center">Informational</td><td align="center">10</td>
@@ -159,10 +159,10 @@ ZAP Scanning Report
                 <td>Storable and Cacheable Content</td><td align="center">Informational</td><td align="center">7</td>
             </tr>
             <tr bgcolor="#e8e8e8">
-                <td>Storable but Non-Cacheable Content</td><td align="center">Informational</td><td align="center">3</td>
+                <td>Storable but Non-Cacheable Content</td><td align="center">Informational</td><td align="center">4</td>
             </tr>
             <tr bgcolor="#e8e8e8">
-                <td>Timestamp Disclosure - Unix</td><td align="center">Informational</td><td align="center">6</td>
+                <td>Timestamp Disclosure - Unix</td><td align="center">Informational</td><td align="center">5</td>
             </tr>
         </table>
         <div class="spacer-lg"></div>
@@ -948,7 +948,25 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%">Instances</td><td width="80%">2</td>
+                <td width="20%" class="indent1">URL</td><td width="80%">https://chauffage-urbain.beta.gouv.fr/</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">XSRF-TOKEN</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">Set-Cookie: XSRF-TOKEN</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Instances</td><td width="80%">3</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -1031,6 +1049,24 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://chauffage-urbain.beta.gouv.fr/</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">_bobcat_session</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">Set-Cookie: _bobcat_session</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
                 <td width="20%" class="indent1">URL</td><td width="80%">https://chauffage-urbain.beta.gouv.fr/le-chauffage-urbain</td>
             </tr>
               
@@ -1044,6 +1080,24 @@ ZAP Scanning Report
               
             <tr bgcolor="#e8e8e8">
                 <td width="20%" class="indent2">Evidence</td><td width="80%">Set-Cookie: _bobcat_session</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://chauffage-urbain.beta.gouv.fr/</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">XSRF-TOKEN</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">Set-Cookie: XSRF-TOKEN</td>
             </tr>
               
   
@@ -1085,7 +1139,7 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%">Instances</td><td width="80%">5</td>
+                <td width="20%">Instances</td><td width="80%">7</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -1132,6 +1186,24 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://chauffage-urbain.beta.gouv.fr/</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">XSRF-TOKEN</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">Set-Cookie: XSRF-TOKEN</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
                 <td width="20%" class="indent1">URL</td><td width="80%">https://chauffage-urbain.beta.gouv.fr/le-chauffage-urbain</td>
             </tr>
               
@@ -1204,6 +1276,24 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://chauffage-urbain.beta.gouv.fr/</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">_bobcat_session</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">Set-Cookie: _bobcat_session</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
                 <td width="20%" class="indent1">URL</td><td width="80%">https://chauffage-urbain.beta.gouv.fr/pages/cookie-policy</td>
             </tr>
               
@@ -1222,7 +1312,7 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%">Instances</td><td width="80%">5</td>
+                <td width="20%">Instances</td><td width="80%">7</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -1695,7 +1785,7 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://chauffage-urbain.beta.gouv.fr/partenaires</td>
+                <td width="20%" class="indent1">URL</td><td width="80%">https://chauffage-urbain.beta.gouv.fr/</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -1704,6 +1794,10 @@ ZAP Scanning Report
               
             <tr bgcolor="#e8e8e8">
                 <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">max-age=0, public, must-revalidate</td>
             </tr>
               
   
@@ -1723,7 +1817,21 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%">Instances</td><td width="80%">9</td>
+                <td width="20%" class="indent1">URL</td><td width="80%">https://chauffage-urbain.beta.gouv.fr/partenaires</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Instances</td><td width="80%">10</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -2079,20 +2187,6 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://chauffage-urbain.beta.gouv.fr/i/pwa/manifest.json</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">2F8OdldGZMWRismIfs1rBNvkUB77GAuf9s</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
                 <td width="20%" class="indent1">URL</td><td width="80%">https://chauffage-urbain.beta.gouv.fr/partenaires</td>
             </tr>
               
@@ -2115,7 +2209,21 @@ ZAP Scanning Report
             </tr>
               
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">a0dVRzdXM1ZWZDJZVHJ1d0YyOTRXa1JNeVN0ZGpSbFVIaUYvamNMaGV6Yk9YM3VxaEh3QTJ3OHl0V2c2elBpZ3pFWmlEZm4ydS9VTGZ2SlJ5dmZITEt0VHRucENKMGRsNGFZYWtZWGZURTFtdCtaaE5oRTlRSkRIZkJsOHFwQ0xPakViMWFLNEtIWmplTUlWVmFzWUJRPT0tLUVydTVURTJhY24rajNFZExkdHRoK2c9PQ</td>
+                <td width="20%" class="indent2">Evidence</td><td width="80%">VzdTZ2pKRnhsdGY5eXBydkV0blBNbFVleUJ6YmptQXh2L0RWNWtzRE41STU4MXp5a3VDU3d3dDc0QXJiQnZTQnVhZEJZWitmZ0kyMCtSYWNLS2VyNE80TFJXUGZlQzV3S2FtVnVrL3VhVHlpTU40aDBkYlZOOVlNQjY4Q1JWVFFIL2JuRjNYSnNrNW9GV0FTM0I0eTNRPT0tLUJoQVNERGtmQ2pyaVQ4U0NZMmF2U3c9PQ</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://chauffage-urbain.beta.gouv.fr/</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">VOCaaY0zIuSwRhHeuV6GetgHJULzszF3bamGs5Jo69fvostkc2DVVmvLQEgDVCtz0gpjEtPJ6p8hoFL5w6P</td>
             </tr>
               
   
@@ -2143,7 +2251,21 @@ ZAP Scanning Report
             </tr>
               
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">NyKXBqYg82On4zaTt7hzIBSomTGNj9zU33OZWV8L0GyqL1tPxtKdVhwpmXeov61v9ilNwJwkBrQxYZYw09iAWQ</td>
+                <td width="20%" class="indent2">Evidence</td><td width="80%">2BdX9hSyizpeOs9NRnZbLBCcDOCJkR6kzTZQEwnRVLtw</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://chauffage-urbain.beta.gouv.fr/i/pwa/manifest.json</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">2FBpiR3B0bHDsQ6o2pe2NB3o73SC2LqHn2dDrWzC621q9nLQ</td>
             </tr>
               
   
@@ -2205,7 +2327,7 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%">Instances</td><td width="80%">9</td>
+                <td width="20%">Instances</td><td width="80%">10</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -2213,7 +2335,7 @@ ZAP Scanning Report
             </tr>
               
             <tr bgcolor="#e8e8e8">
-                <td width="20%">Other information</td><td width="80%"><p>�_\x000evWFdő�Ɉ~�k\x0004��P\x001e�\x0018\x000b��</p></td>
+                <td width="20%">Other information</td><td width="80%"><p>GIF89a\x0001\x0000\x0001\x0000\x0000\x0000\x0000!�\x0004\x0001</p><p>\x0000\x0001\x0000,\x0000\x0000\x0000\x0000\x0001\x0000\x0001\x0000\x0000\x0002\x0002L\x0001\x0000;</p></td>
             </tr>
             <TR vAlign="top">
                 <TD colspan="2"></TD>
@@ -2315,7 +2437,7 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://chauffage-urbain.beta.gouv.fr/partenaires</td>
+                <td width="20%" class="indent1">URL</td><td width="80%">https://chauffage-urbain.beta.gouv.fr/accueil</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -2439,7 +2561,7 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://chauffage-urbain.beta.gouv.fr/partenaires</td>
+                <td width="20%" class="indent1">URL</td><td width="80%">https://chauffage-urbain.beta.gouv.fr/accueil</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -2880,7 +3002,21 @@ window.location.href = "https://chauffage-urbain.beta.gouv.fr/"
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%">Instances</td><td width="80%">3</td>
+                <td width="20%" class="indent1">URL</td><td width="80%">https://chauffage-urbain.beta.gouv.fr/</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">max-age=0</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Instances</td><td width="80%">4</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -2963,20 +3099,6 @@ window.location.href = "https://chauffage-urbain.beta.gouv.fr/"
             </tr>
               
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">1611567310</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://chauffage-urbain.beta.gouv.fr/</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
                 <td width="20%" class="indent2">Evidence</td><td width="80%">13400001</td>
             </tr>
               
@@ -3011,7 +3133,7 @@ window.location.href = "https://chauffage-urbain.beta.gouv.fr/"
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%">Instances</td><td width="80%">6</td>
+                <td width="20%">Instances</td><td width="80%">5</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
