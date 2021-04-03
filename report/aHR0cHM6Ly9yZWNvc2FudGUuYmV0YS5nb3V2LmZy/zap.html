@@ -81,7 +81,7 @@ ZAP Scanning Report
         <p>
 </p>
         <h3 class="left-header">Summary of Alerts</h3>
-        <h3 class="time-stamp">Generated on Fri, 2 Apr 2021 01:56:33</h3>
+        <h3 class="time-stamp">Generated on Sat, 3 Apr 2021 01:45:54</h3>
         <table width="45%" class="summary">
             <tr bgcolor="#666666">
                 <th width="45%" height="24">Risk 
@@ -120,7 +120,7 @@ ZAP Scanning Report
                 <td>X-Frame-Options Header Not Set</td><td align="center">Medium</td><td align="center">11</td>
             </tr>
             <tr bgcolor="#e8e8e8">
-                <td>Absence of Anti-CSRF Tokens</td><td align="center">Low</td><td align="center">11</td>
+                <td>Absence of Anti-CSRF Tokens</td><td align="center">Low</td><td align="center">9</td>
             </tr>
             <tr bgcolor="#e8e8e8">
                 <td>Cross-Domain JavaScript Source File Inclusion</td><td align="center">Low</td><td align="center">11</td>
@@ -147,7 +147,7 @@ ZAP Scanning Report
                 <td>Content-Type Header Missing</td><td align="center">Informational</td><td align="center">1</td>
             </tr>
             <tr bgcolor="#e8e8e8">
-                <td>Information Disclosure - Suspicious Comments</td><td align="center">Informational</td><td align="center">8</td>
+                <td>Information Disclosure - Suspicious Comments</td><td align="center">Informational</td><td align="center">9</td>
             </tr>
             <tr bgcolor="#e8e8e8">
                 <td>Modern Web Application</td><td align="center">Informational</td><td align="center">11</td>
@@ -244,6 +244,16 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/stats/</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
                 <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr</td>
             </tr>
               
@@ -255,16 +265,6 @@ ZAP Scanning Report
   
             <tr bgcolor="#e8e8e8">
                 <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/profil/</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/allergies/</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -423,7 +423,21 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/allergies/</td>
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/inscription-patients/</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="https://cdn.polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"&gt;&lt;/script&gt;</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/inscription/</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -445,35 +459,21 @@ ZAP Scanning Report
             </tr>
               
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="https://cdn.polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"&gt;&lt;/script&gt;</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/allergies/</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="https://cdn.polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"&gt;&lt;/script&gt;</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/inscription-patients/</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
                 <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;link rel="preconnect" href="https://stats.data.gouv.fr"/&gt;</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/inscription/</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="https://cdn.polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"&gt;&lt;/script&gt;</td>
             </tr>
               
   
@@ -694,7 +694,7 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/allergies/</td>
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -712,7 +712,7 @@ ZAP Scanning Report
             </tr>
               
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+                <td width="20%" class="indent2">Method</td><td width="80%">POST</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -825,6 +825,20 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/inscription-patients/</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;form class="Form__Wrapper-sc-11txskx-0 dfPfqE"&gt;</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
                 <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr</td>
             </tr>
               
@@ -839,7 +853,7 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/allergies/</td>
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/inscription-patients/?name=ZAP&amp;patients</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -847,35 +861,7 @@ ZAP Scanning Report
             </tr>
               
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;form method="post" class="SubscribeForm__Wrapper-sc-1h5x93k-0 janDFD"&gt;</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/allergies/</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">POST</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;form method="post" class="SubscribeForm__Wrapper-sc-1h5x93k-0 janDFD"&gt;</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/inscription-patients/</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;form class="inscription-patients__Form-sc-1wdgti1-0 ggQvlX"&gt;</td>
+                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;form class="Form__Wrapper-sc-11txskx-0 dfPfqE"&gt;</td>
             </tr>
               
   
@@ -923,20 +909,6 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/inscription-patients/?nom=ZAP</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;form class="inscription-patients__Form-sc-1wdgti1-0 ggQvlX"&gt;</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
                 <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/</td>
             </tr>
               
@@ -951,7 +923,7 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%">Instances</td><td width="80%">11</td>
+                <td width="20%">Instances</td><td width="80%">9</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -1001,24 +973,6 @@ ZAP Scanning Report
             <TR vAlign="top">
                 <TD colspan="2"></TD>
             </TR>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/allergies/</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">https://cdn.polyfill.io/v3/polyfill.min.js?features=IntersectionObserver</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="https://cdn.polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"&gt;&lt;/script&gt;</td>
-            </tr>
               
   
   
@@ -1203,6 +1157,24 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">POST</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">https://cdn.polyfill.io/v3/polyfill.min.js?features=IntersectionObserver</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script src="https://cdn.polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"&gt;&lt;/script&gt;</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
                 <td width="20%">Instances</td><td width="80%">11</td>
             </tr>
               
@@ -1250,7 +1222,49 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/app-2da13072f09b01dfe5c2.js</td>
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/framework-b17a64ad725e0b3c1338.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">eVal</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/commons-8f342b8ef806476a3ded.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">eVal</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/component---src-pages-stats-js-03ec133b4ac85795656c.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">eVal</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/app-a8a436a02ea92ee73ff7.js</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -1259,48 +1273,6 @@ ZAP Scanning Report
               
             <tr bgcolor="#e8e8e8">
                 <td width="20%" class="indent2">Evidence</td><td width="80%">eval</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/commons-08d4f61e1b883111a89f.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">eVal</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/component---src-pages-stats-js-e653f2a2bfd76bcbc785.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">eVal</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/framework-c8d3a5345e3f321d7da5.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">eVal</td>
             </tr>
               
   
@@ -1350,6 +1322,16 @@ ZAP Scanning Report
   
             <tr bgcolor="#e8e8e8">
                 <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/inscription/</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/stats/</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -1429,16 +1411,6 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/allergies/</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
                 <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/professionnelsante/</td>
             </tr>
               
@@ -1502,6 +1474,20 @@ ZAP Scanning Report
             <TR vAlign="top">
                 <TD colspan="2"></TD>
             </TR>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/stats/</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
+            </tr>
               
   
   
@@ -1646,20 +1632,6 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/allergies/</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">Cache-Control</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
                 <td width="20%">Instances</td><td width="80%">11</td>
             </tr>
               
@@ -1717,7 +1689,7 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/allergies/</td>
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/sitemap.xml</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -1727,7 +1699,7 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/sitemap.xml</td>
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/profil/</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -1878,20 +1850,6 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/allergies/</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
                 <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/professionnelsante/</td>
             </tr>
               
@@ -2005,6 +1963,20 @@ ZAP Scanning Report
   
             <tr bgcolor="#e8e8e8">
                 <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Parameter</td><td width="80%">X-Content-Type-Options</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/stats/</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -2142,7 +2114,7 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/allergies/</td>
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/2f784efbd05902ade43fa2635160251c8a79e278-c695576e1e729335aded.js</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -2150,7 +2122,7 @@ ZAP Scanning Report
             </tr>
               
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">/static/Marianne-Thin-5258a298fff0556c311a36f45fc90397</td>
+                <td width="20%" class="indent2">Evidence</td><td width="80%">20-20h24v40h40V80h264v40h40V80h24c11</td>
             </tr>
               
   
@@ -2337,7 +2309,7 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/component---src-pages-stats-js-e653f2a2bfd76bcbc785.js</td>
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/component---src-pages-professionnelsante-js-87a99e69c8211b906bc9.js</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -2351,7 +2323,7 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/app-2da13072f09b01dfe5c2.js</td>
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/app-a8a436a02ea92ee73ff7.js</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -2365,21 +2337,7 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/acd228c973bcc8442de6f392692e9a2f8ed15512-8e8c81885c9c8eb6621b.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">user</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/framework-c8d3a5345e3f321d7da5.js</td>
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/commons-8f342b8ef806476a3ded.js</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -2393,7 +2351,7 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/61bba75f6c35915bf0f05ba7d9cdfeca61eacaa8-60001cfe5c3358527dcd.js</td>
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/component---src-pages-inscription-patients-js-c9c6cb437b212e51d8d3.js</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -2407,7 +2365,7 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/component---src-pages-professionnelsante-js-fc590ff1d4b05a5966e3.js</td>
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/2f784efbd05902ade43fa2635160251c8a79e278-c695576e1e729335aded.js</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -2415,27 +2373,13 @@ ZAP Scanning Report
             </tr>
               
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">from</td>
+                <td width="20%" class="indent2">Evidence</td><td width="80%">user</td>
             </tr>
               
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/commons-08d4f61e1b883111a89f.js</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">select</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/polyfill-34ee454f7a57a81b4b12.js</td>
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/polyfill-f989ba8e6999b1a99b7a.js</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -2449,7 +2393,49 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%">Instances</td><td width="80%">8</td>
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/framework-b17a64ad725e0b3c1338.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">select</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/component---src-pages-stats-js-03ec133b4ac85795656c.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">from</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/acd228c973bcc8442de6f392692e9a2f8ed15512-4afbaf0ef77a63f9839c.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">user</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%">Instances</td><td width="80%">9</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -2457,7 +2443,7 @@ ZAP Scanning Report
             </tr>
               
             <tr bgcolor="#e8e8e8">
-                <td width="20%">Other information</td><td width="80%"><p>The following pattern was used: \bFROM\b and was detected in the element starting with: "(window.webpackJsonp=window.webpackJsonp||[]).push([[16],{"+6XX":function(t,e,n){var r=n("y1pI");t.exports=function(t){return r(", see evidence field for the suspicious comment/snippet.</p></td>
+                <td width="20%">Other information</td><td width="80%"><p>The following pattern was used: \bFROM\b and was detected in the element starting with: "(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{Fkb1:function(e,t,n){"use strict";n.d(t,"a",(function(){return u}));va", see evidence field for the suspicious comment/snippet.</p></td>
             </tr>
             <TR vAlign="top">
                 <TD colspan="2"></TD>
@@ -2557,6 +2543,20 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/framework-b17a64ad725e0b3c1338.js</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;script&gt;</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
                 <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/pollen/</td>
             </tr>
               
@@ -2630,24 +2630,6 @@ ZAP Scanning Report
   
             <tr bgcolor="#e8e8e8">
                 <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Evidence</td><td width="80%">&lt;noscript&gt;&lt;picture&gt;&lt;source srcset="/static/cc4670285ce6ba76eec48317038efb68/8f540/repufrancaise.jpg 1x,
-/static/cc4670285ce6ba76eec48317038efb68/1df8b/repufrancaise.jpg 1.5x,
-/static/cc4670285ce6ba76eec48317038efb68/3a313/repufrancaise.jpg 2x" /&gt;&lt;img loading="lazy" width="99" height="90" srcset="/static/cc4670285ce6ba76eec48317038efb68/8f540/repufrancaise.jpg 1x,
-/static/cc4670285ce6ba76eec48317038efb68/1df8b/repufrancaise.jpg 1.5x,
-/static/cc4670285ce6ba76eec48317038efb68/3a313/repufrancaise.jpg 2x" src="/static/cc4670285ce6ba76eec48317038efb68/8f540/repufrancaise.jpg" alt="R&eacute;publique Fran&ccedil;aise" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;&lt;/noscript&gt;</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/allergies/</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
@@ -2757,16 +2739,6 @@ ZAP Scanning Report
   
   
             <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/allergies/</td>
-            </tr>
-              
-            <tr bgcolor="#e8e8e8">
-                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
-            </tr>
-              
-  
-  
-            <tr bgcolor="#e8e8e8">
                 <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/robots.txt</td>
             </tr>
               
@@ -2818,6 +2790,16 @@ ZAP Scanning Report
   
             <tr bgcolor="#e8e8e8">
                 <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/sitemap.xml</td>
+            </tr>
+              
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent2">Method</td><td width="80%">GET</td>
+            </tr>
+              
+  
+  
+            <tr bgcolor="#e8e8e8">
+                <td width="20%" class="indent1">URL</td><td width="80%">https://recosante.beta.gouv.fr/profil/</td>
             </tr>
               
             <tr bgcolor="#e8e8e8">
