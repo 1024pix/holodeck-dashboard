@@ -1,0 +1,39 @@
+{
+  "host": "pilotage.inclusion.beta.gouv.fr",
+  "port": 443,
+  "protocol": "http",
+  "isPublic": false,
+  "status": "READY",
+  "startTime": 1617586863762,
+  "testTime": 1617587064357,
+  "engineVersion": "2.1.8",
+  "criteriaVersion": "2009q",
+  "endpoints": [
+    {
+      "ipAddress": "2607:f8b0:4005:807:0:0:0:2013",
+      "serverName": "sfo07s16-in-x13.1e100.net",
+      "statusMessage": "Ready",
+      "grade": "B",
+      "gradeTrustIgnored": "B",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 99697,
+      "eta": 1,
+      "delegation": 1
+    },
+    {
+      "ipAddress": "216.58.195.83",
+      "serverName": "sfo07s16-in-f19.1e100.net",
+      "statusMessage": "Ready",
+      "grade": "B",
+      "gradeTrustIgnored": "B",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 100531,
+      "eta": 0,
+      "delegation": 1
+    }
+  ]
+}
