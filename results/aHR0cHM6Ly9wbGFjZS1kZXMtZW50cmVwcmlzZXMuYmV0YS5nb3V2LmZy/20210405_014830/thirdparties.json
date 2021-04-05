@@ -1,0 +1,272 @@
+{
+  "trackers": [
+    {
+      "type": "unknown",
+      "url": "https://browser.sentry-cdn.com/6.2.3/bundle.min.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://o548617.ingest.sentry.io/api/5671428/envelope/?sentry_key=78373dec3c544118a68f32a84b1ff160&sentry_version=7"
+    }
+  ],
+  "cookies": [
+    {
+      "name": "_pk_id.80.3b70",
+      "value": "c540c9a2cd96b18e.1617587275.1.1617587275.1617587275.",
+      "domain": "place-des-entreprises.beta.gouv.fr",
+      "path": "/",
+      "expires": 1651542475,
+      "size": 66,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "_pk_ses.80.3b70",
+      "value": "1",
+      "domain": "place-des-entreprises.beta.gouv.fr",
+      "path": "/",
+      "expires": 1617589075,
+      "size": 16,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "_PlaceDesEntreprises_session",
+      "value": "Y6fU8jN1zgchBzu0IUR4dCECnLzgnEHiwq4h8ZzsNaTcDEhHjI1EdC8TwdfNJLsEqwFKHbzNYb%2FAZp51IqPlFj7%2FRTw2s%2Bu2%2Bnt%2BxH2lGRk2mHPuJOJi9K01WXS2g1fDVEJYnFgjv6GQ%2FcbM4HaKA723ISBLetDq%2F4A%2BQ3IMN7wLMRmWhCQR%2FB7vRlRkUt9Imx5wlKswzbDoGvWY4FYVYlHALVajLnInbQfGAYrcnWuI%2Fs6f8xdEy8mLyw9Dyov%2BcI5SMM5UAMvzNznFhtb6W025qs2yOrvrqqA5i20KgAjXk9fw%2Bx0dwtPOod4HRQj9CZOE0CaB0iUnOq6da9TQxy8tZNYFgHHhmDrXT7N7E5rRrGqsRFM5w9rw%2FMuR5Uilqt0lLYfCa6hbkJgjyKURcaKai1k%2F2ZZErwW2qcmPu4dJVihF7zs3Ihzxeq%2FjnIxbIx4h2j2R1RepVEF3AKNidZ5Xae6vmg0y--gFEpnn3hSlzc35Qz--tbz34r%2B1QuXUG9slq1jP%2FA%3D%3D",
+      "domain": "place-des-entreprises.beta.gouv.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 590,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "Strict",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    }
+  ],
+  "headers": {
+    "server": "openresty",
+    "date": "Mon, 05 Apr 2021 01:47:54 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "x-request-id": "da257273-7465-4702-bfbb-19f2da68c599\nda257273-7465-4702-bfbb-19f2da68c599",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": "nosniff",
+    "x-download-options": "noopen",
+    "x-permitted-cross-domain-policies": "none",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "etag": "W/\"62d883f5b3bd7bb002b821fc01c1006d\"",
+    "cache-control": "max-age=0, private, must-revalidate",
+    "set-cookie": "_PlaceDesEntreprises_session=Y6fU8jN1zgchBzu0IUR4dCECnLzgnEHiwq4h8ZzsNaTcDEhHjI1EdC8TwdfNJLsEqwFKHbzNYb%2FAZp51IqPlFj7%2FRTw2s%2Bu2%2Bnt%2BxH2lGRk2mHPuJOJi9K01WXS2g1fDVEJYnFgjv6GQ%2FcbM4HaKA723ISBLetDq%2F4A%2BQ3IMN7wLMRmWhCQR%2FB7vRlRkUt9Imx5wlKswzbDoGvWY4FYVYlHALVajLnInbQfGAYrcnWuI%2Fs6f8xdEy8mLyw9Dyov%2BcI5SMM5UAMvzNznFhtb6W025qs2yOrvrqqA5i20KgAjXk9fw%2Bx0dwtPOod4HRQj9CZOE0CaB0iUnOq6da9TQxy8tZNYFgHHhmDrXT7N7E5rRrGqsRFM5w9rw%2FMuR5Uilqt0lLYfCa6hbkJgjyKURcaKai1k%2F2ZZErwW2qcmPu4dJVihF7zs3Ihzxeq%2FjnIxbIx4h2j2R1RepVEF3AKNidZ5Xae6vmg0y--gFEpnn3hSlzc35Qz--tbz34r%2B1QuXUG9slq1jP%2FA%3D%3D; path=/; secure; HttpOnly; SameSite=Strict",
+    "x-runtime": "0.032978",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "content-encoding": "gzip"
+  },
+  "endpoints": [
+    {
+      "hostname": "place-des-entreprises.beta.gouv.fr",
+      "ip": "109.232.236.90",
+      "geoip": {
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
+          "time_zone": "Europe/Paris"
+        },
+        "registered_country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "browser.sentry-cdn.com",
+      "ip": "151.101.130.217",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "o548617.ingest.sentry.io",
+      "ip": "35.188.42.15",
+      "geoip": {
+        "city": {
+          "geoname_id": 4852832,
+          "names": {
+            "en": "Council Bluffs",
+            "ja": "カウンシルブラフス",
+            "ru": "Каунсил-Блафс",
+            "zh-CN": "康瑟尔布拉夫斯"
+          }
+        },
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 41.2619,
+          "longitude": -95.8608,
+          "metro_code": 652,
+          "time_zone": "America/Chicago"
+        },
+        "postal": {
+          "code": "51502"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 4862182,
+            "iso_code": "IA",
+            "names": {
+              "de": "Iowa",
+              "en": "Iowa",
+              "es": "Iowa",
+              "fr": "Iowa",
+              "ja": "アイオワ州",
+              "pt-BR": "Iova",
+              "ru": "Айова",
+              "zh-CN": "艾奥瓦州"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
