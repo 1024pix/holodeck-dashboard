@@ -1,0 +1,65 @@
+{
+  "host": "dossierfacile.fr",
+  "port": 443,
+  "protocol": "http",
+  "isPublic": false,
+  "status": "READY",
+  "startTime": 1617670652093,
+  "testTime": 1617670967740,
+  "engineVersion": "2.1.8",
+  "criteriaVersion": "2009q",
+  "endpoints": [
+    {
+      "ipAddress": "13.35.125.112",
+      "serverName": "server-13-35-125-112.sfo5.r.cloudfront.net",
+      "statusMessage": "Ready",
+      "grade": "A",
+      "gradeTrustIgnored": "A",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 78704,
+      "eta": 15,
+      "delegation": 1
+    },
+    {
+      "ipAddress": "13.35.125.107",
+      "serverName": "server-13-35-125-107.sfo5.r.cloudfront.net",
+      "statusMessage": "Ready",
+      "grade": "A",
+      "gradeTrustIgnored": "A",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 78702,
+      "eta": 11,
+      "delegation": 1
+    },
+    {
+      "ipAddress": "13.35.125.127",
+      "serverName": "server-13-35-125-127.sfo5.r.cloudfront.net",
+      "statusMessage": "Ready",
+      "grade": "A",
+      "gradeTrustIgnored": "A",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 79065,
+      "eta": 8,
+      "delegation": 1
+    },
+    {
+      "ipAddress": "13.35.125.125",
+      "serverName": "server-13-35-125-125.sfo5.r.cloudfront.net",
+      "statusMessage": "Ready",
+      "grade": "A",
+      "gradeTrustIgnored": "A",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 79015,
+      "eta": 4,
+      "delegation": 1
+    }
+  ]
+}
