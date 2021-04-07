@@ -1,0 +1,65 @@
+{
+  "host": "dossierfacile.fr",
+  "port": 443,
+  "protocol": "http",
+  "isPublic": false,
+  "status": "READY",
+  "startTime": 1617757567164,
+  "testTime": 1617757888541,
+  "engineVersion": "2.1.8",
+  "criteriaVersion": "2009q",
+  "endpoints": [
+    {
+      "ipAddress": "13.35.90.87",
+      "serverName": "server-13-35-90-87.lax3.r.cloudfront.net",
+      "statusMessage": "Ready",
+      "grade": "A",
+      "gradeTrustIgnored": "A",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 80509,
+      "eta": 15,
+      "delegation": 1
+    },
+    {
+      "ipAddress": "13.35.90.9",
+      "serverName": "server-13-35-90-9.lax3.r.cloudfront.net",
+      "statusMessage": "Ready",
+      "grade": "A",
+      "gradeTrustIgnored": "A",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 80709,
+      "eta": 11,
+      "delegation": 1
+    },
+    {
+      "ipAddress": "13.35.90.31",
+      "serverName": "server-13-35-90-31.lax3.r.cloudfront.net",
+      "statusMessage": "Ready",
+      "grade": "A",
+      "gradeTrustIgnored": "A",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 80029,
+      "eta": 8,
+      "delegation": 1
+    },
+    {
+      "ipAddress": "13.35.90.78",
+      "serverName": "server-13-35-90-78.lax3.r.cloudfront.net",
+      "statusMessage": "Ready",
+      "grade": "A",
+      "gradeTrustIgnored": "A",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 79956,
+      "eta": 4,
+      "delegation": 1
+    }
+  ]
+}
