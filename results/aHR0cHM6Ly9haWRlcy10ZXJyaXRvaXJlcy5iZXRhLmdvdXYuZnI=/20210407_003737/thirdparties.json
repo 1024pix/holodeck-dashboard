@@ -1,0 +1,284 @@
+{
+  "trackers": [
+    {
+      "type": "unknown",
+      "url": "https://aides-territoires-prod.s3.fr-par.scw.cloud/aides-territoires-prod/backers/agence-de-leau-rhone-mediterranee-corse_logo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCWJ1T6VQNR6Z83FSYEB%2F20210407%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20210407T003707Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a7319b374dcba6ff85c1e760331d7448145bddfa0a41acafd35422c3779ae2b2"
+    },
+    {
+      "type": "unknown",
+      "url": "https://aides-territoires-prod.s3.fr-par.scw.cloud/aides-territoires-prod/backers/region-nouvelle-aquitaine_logo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCWJ1T6VQNR6Z83FSYEB%2F20210407%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20210407T003707Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=91a1fac5dca539de2d2e72c2f5fdd919c46c31d30f4b4d1797bb1ee8dae05bb4"
+    },
+    {
+      "type": "unknown",
+      "url": "https://aides-territoires-prod.s3.fr-par.scw.cloud/aides-territoires-prod/backers/agence-de-leau-rhin-meuse_logo.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCWJ1T6VQNR6Z83FSYEB%2F20210407%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20210407T003707Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=31f3480aca6be5bb42d9205fc04a56ccf28eac1f735a95593c1abfcbada4bc24"
+    },
+    {
+      "type": "unknown",
+      "url": "https://aides-territoires-prod.s3.fr-par.scw.cloud/aides-territoires-prod/backers/agence-de-leau-seine-normandie_logo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCWJ1T6VQNR6Z83FSYEB%2F20210407%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20210407T003707Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1eeeb3a0c15d3c62ec9430196902852886df6e78559310d372a93ca5bf193fc8"
+    },
+    {
+      "type": "unknown",
+      "url": "https://aides-territoires-prod.s3.fr-par.scw.cloud/aides-territoires-prod/backers/ministere-de-la-transition-ecologique-et-solidaire_logo.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCWJ1T6VQNR6Z83FSYEB%2F20210407%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20210407T003707Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=30c769db4426a8e19940cb8b206ae1b8d9828ffef99257a9e9049db87c1fa339"
+    },
+    {
+      "type": "unknown",
+      "url": "https://aides-territoires-prod.s3.fr-par.scw.cloud/aides-territoires-prod/backers/cerema_logo.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCWJ1T6VQNR6Z83FSYEB%2F20210407%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20210407T003707Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=cad4c132101f78bd2ad1b652ed526536ab201bdda71f97ea9584f06c45c3512a"
+    },
+    {
+      "type": "unknown",
+      "url": "https://aides-territoires-prod.s3.fr-par.scw.cloud/aides-territoires-prod/backers/banque-des-territoires_logo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCWJ1T6VQNR6Z83FSYEB%2F20210407%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20210407T003707Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=afa64694bf3a3b5ebc3da9ac78466a3575a4250a3e5cdc52f233e4d77773376d"
+    },
+    {
+      "type": "unknown",
+      "url": "https://aides-territoires-prod.s3.fr-par.scw.cloud/aides-territoires-prod/backers/office-francais-pour-la-biodiversite-ofb_logo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCWJ1T6VQNR6Z83FSYEB%2F20210407%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20210407T003707Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9d030ff396fe94468d9091309c5e88e30d5fc660b89b981433e571c7bd50f8d6"
+    },
+    {
+      "type": "unknown",
+      "url": "https://aides-territoires-prod.s3.fr-par.scw.cloud/aides-territoires-prod/backers/region-grand-est_logo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCWJ1T6VQNR6Z83FSYEB%2F20210407%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20210407T003707Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4c5bfc09f8ba53bb709a960feb5dbfb9abbb28f18cd47b0b7d0824d50dfb966f"
+    },
+    {
+      "type": "unknown",
+      "url": "https://aides-territoires-prod.s3.fr-par.scw.cloud/aides-territoires-prod/backers/ademe_logo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCWJ1T6VQNR6Z83FSYEB%2F20210407%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20210407T003707Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f9fd8245f6587f15f8355c9f629315232fc563f41bc3ae625e92ffedf86800b6"
+    },
+    {
+      "type": "unknown",
+      "url": "https://aides-territoires-prod.s3.fr-par.scw.cloud/aides-territoires-prod/backers/ministere-de-la-cohesion-des-territoires-et-des-re_logo.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCWJ1T6VQNR6Z83FSYEB%2F20210407%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20210407T003707Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0639047be7eafc4b559028df337f876915eb05cddef2cfc6acb1cdac742c29a7"
+    },
+    {
+      "type": "unknown",
+      "url": "https://aides-territoires-prod.s3.fr-par.scw.cloud/aides-territoires-prod/backers/la-banque-postale_logo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCWJ1T6VQNR6Z83FSYEB%2F20210407%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20210407T003707Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f3516a7da489032d4a24151c6b0a56145198d1c6ce5ecd07e414cb72470d4609"
+    },
+    {
+      "type": "unknown",
+      "url": "https://aides-territoires-prod.s3.fr-par.scw.cloud/aides-territoires-prod/backers/agence-nationale-de-la-cohesion-des-territoires-an_logo.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCWJ1T6VQNR6Z83FSYEB%2F20210407%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20210407T003707Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d5f07b6b48a74ba89b88932d2684a15270d1cb0fc24f331b17d6907bf763f8b9"
+    },
+    {
+      "type": "unknown",
+      "url": "https://aides-territoires-prod.s3.fr-par.scw.cloud/aides-territoires-prod/backers/agence-francaise-de-developpement_logo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCWJ1T6VQNR6Z83FSYEB%2F20210407%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20210407T003707Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1be802b733bede0bf9b916b3ed114bc953487d7bcf0ec29c7c736456ccda95bf"
+    },
+    {
+      "type": "unknown",
+      "url": "https://aides-territoires-prod.s3.fr-par.scw.cloud/aides-territoires-prod/backers/agence-nationale-du-sport_logo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCWJ1T6VQNR6Z83FSYEB%2F20210407%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20210407T003707Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=cb913d286d95a327a9c8ae2f6a304b95a5dd28c492b79cea0753643fbf4b7cf3"
+    },
+    {
+      "type": "hotjar",
+      "url": "https://static.hotjar.com/c/hotjar-1189567.js?sv=6",
+      "details": {
+        "id": "hotjar",
+        "message": "Dont use HotJar"
+      }
+    }
+  ],
+  "cookies": [
+    {
+      "name": "_pk_ses.62.6088",
+      "value": "1",
+      "domain": "aides-territoires.beta.gouv.fr",
+      "path": "/",
+      "expires": 1617757628,
+      "size": 16,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "_pk_id.62.6088",
+      "value": "bc081902bbfcf247.1617755828.1.1617755828.1617755828.",
+      "domain": "aides-territoires.beta.gouv.fr",
+      "path": "/",
+      "expires": 1651711028,
+      "size": 66,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    }
+  ],
+  "headers": {
+    "server": "nginx",
+    "date": "Wed, 07 Apr 2021 00:37:07 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "vary": "Accept-Encoding\nCookie",
+    "x-content-type-options": "nosniff\nnosniff",
+    "referrer-policy": "same-origin",
+    "x-xss-protection": "1; mode=block",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "content-security-policy": "default-src 'none'; connect-src 'self' http://*.hotjar.com:* https://*.hotjar.com:* http://*.hotjar.io https://*.hotjar.io wss://*.hotjar.com; font-src 'self' http://*.hotjar.com https://*.hotjar.com http://*.hotjar.io https://*.hotjar.io; frame-src https://stats.data.gouv.fr https://*.hotjar.com http://*.hotjar.io https://*.hotjar.io 'self'; frame-ancestors *; img-src 'self' data: https://stats.data.gouv.fr http://*.hotjar.com https://*.hotjar.com http://*.hotjar.io https://*.hotjar.io https://*.scw.cloud; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://stats.data.gouv.fr http://*.hotjar.com https://*.hotjar.com http://*.hotjar.io https://*.hotjar.io; style-src 'self' 'unsafe-inline' https://stats.beta.gouv.fr; base-uri 'self'; child-src https://*.hotjar.com http://*.hotjar.io https://*.hotjar.io; form-action 'self' https://my.sendinblue.com;",
+    "content-encoding": "gzip"
+  },
+  "endpoints": [
+    {
+      "hostname": "aides-territoires.beta.gouv.fr",
+      "ip": "54.37.225.24",
+      "geoip": {
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
+          "time_zone": "Europe/Paris"
+        },
+        "registered_country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "aides-territoires-prod.s3.fr-par.scw.cloud",
+      "ip": "62.210.134.176",
+      "geoip": {
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
+          "time_zone": "Europe/Paris"
+        },
+        "registered_country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "static.hotjar.com",
+      "ip": "52.85.132.5",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    }
+  ]
+}
