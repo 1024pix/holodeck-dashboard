@@ -1,0 +1,39 @@
+{
+  "host": "aidantsconnect.beta.gouv.fr",
+  "port": 443,
+  "protocol": "http",
+  "isPublic": false,
+  "status": "READY",
+  "startTime": 1617755436395,
+  "testTime": 1617755592148,
+  "engineVersion": "2.1.8",
+  "criteriaVersion": "2009q",
+  "endpoints": [
+    {
+      "ipAddress": "148.253.96.24",
+      "serverName": "ows-148-253-96-24.cloudgouv-eu-west-1.compute.outscale.com",
+      "statusMessage": "Ready",
+      "grade": "A",
+      "gradeTrustIgnored": "A",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 78468,
+      "eta": 8,
+      "delegation": 1
+    },
+    {
+      "ipAddress": "185.21.194.105",
+      "serverName": "ows-185-21-194-105.cloudgouv-eu-west-1.compute.outscale.com",
+      "statusMessage": "Ready",
+      "grade": "A",
+      "gradeTrustIgnored": "A",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 76052,
+      "eta": 4,
+      "delegation": 1
+    }
+  ]
+}
