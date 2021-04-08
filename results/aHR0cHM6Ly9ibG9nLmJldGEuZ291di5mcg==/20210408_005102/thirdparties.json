@@ -1,0 +1,221 @@
+{
+  "trackers": [
+    {
+      "type": "unknown",
+      "url": "https://images.unsplash.com/photo-1516490981167-dc990a242afe?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "type": "unknown",
+      "url": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+    }
+  ],
+  "cookies": [
+    {
+      "name": "_pk_ses.69.9a49",
+      "value": "1",
+      "domain": "blog.beta.gouv.fr",
+      "path": "/",
+      "expires": 1617844824,
+      "size": 16,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "_pk_id.69.9a49",
+      "value": "2536fce95e5827b7.1617843024.1.1617843024.1617843024.",
+      "domain": "blog.beta.gouv.fr",
+      "path": "/",
+      "expires": 1651798224,
+      "size": 66,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    }
+  ],
+  "headers": {
+    "cache-control": "public, max-age=0, must-revalidate",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 07 Apr 2021 16:35:18 GMT",
+    "etag": "\"c6d463e6a6991dc5117598fe1eb30b01-ssl-df\"",
+    "content-encoding": "br",
+    "content-length": "7263",
+    "age": "29706",
+    "x-nf-request-id": "bdc7be6b-191b-4834-aa55-d40d96beb6c9",
+    "server": "Netlify",
+    "vary": "Accept-Encoding"
+  },
+  "endpoints": [
+    {
+      "hostname": "blog.beta.gouv.fr",
+      "ip": "167.99.246.105",
+      "geoip": {
+        "city": {
+          "geoname_id": 2925533,
+          "names": {
+            "de": "Frankfurt am Main",
+            "en": "Frankfurt am Main",
+            "es": "Francfort",
+            "fr": "Francfort-sur-le-Main",
+            "ja": "フランクフルト・アム・マイン",
+            "pt-BR": "Frankfurt am Main",
+            "ru": "Франкфурт",
+            "zh-CN": "法兰克福"
+          }
+        },
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 2921044,
+          "is_in_european_union": true,
+          "iso_code": "DE",
+          "names": {
+            "de": "Deutschland",
+            "en": "Germany",
+            "es": "Alemania",
+            "fr": "Allemagne",
+            "ja": "ドイツ連邦共和国",
+            "pt-BR": "Alemanha",
+            "ru": "Германия",
+            "zh-CN": "德国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 50.1188,
+          "longitude": 8.6843,
+          "time_zone": "Europe/Berlin"
+        },
+        "postal": {
+          "code": "60313"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 2905330,
+            "iso_code": "HE",
+            "names": {
+              "de": "Hessen",
+              "en": "Hesse",
+              "es": "Hessen",
+              "fr": "Hesse",
+              "ru": "Гессен"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "images.unsplash.com",
+      "ip": "151.101.250.208",
+      "geoip": {
+        "city": {
+          "geoname_id": 4744870,
+          "names": {
+            "en": "Ashburn",
+            "ru": "Ашберн"
+          }
+        },
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 39.018,
+          "longitude": -77.539,
+          "metro_code": 511,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "20147"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 6254928,
+            "iso_code": "VA",
+            "names": {
+              "en": "Virginia",
+              "fr": "Virginie",
+              "ja": "バージニア州",
+              "pt-BR": "Virgínia",
+              "ru": "Вирджиния",
+              "zh-CN": "弗吉尼亚州"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
