@@ -1,0 +1,306 @@
+{
+  "trackers": [
+    {
+      "type": "google analytics",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "details": {
+        "id": "google analytics",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google tag manager",
+      "url": "https://www.googletagmanager.com/gtag/js?id=UA-50823626-2&l=dataLayer",
+      "details": {
+        "id": "google tag manager",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google analytics",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "details": {
+        "id": "google analytics",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google analytics",
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j89&a=387134245&t=pageview&_s=1&dl=https%3A%2F%2Fwww.dossierfacile.fr%2F&dp=%2F&ul=en-us&de=UTF-8&dt=Home&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=KEBAAUABEAAAAC~&jid=280222989&gjid=677996383&cid=206430401.1618017024&tid=UA-50823626-2&_gid=154975857.1618017024&_r=1&gtm=2ou3v0&z=314465895",
+      "details": {
+        "id": "google analytics",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google analytics",
+      "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j89&tid=UA-50823626-2&cid=206430401.1618017024&jid=280222989&gjid=677996383&_gid=154975857.1618017024&_u=KEBAAUAAEAAAAC~&z=406113346",
+      "details": {
+        "id": "google analytics",
+        "message": "Use hosted Matomo instance"
+      }
+    }
+  ],
+  "cookies": [],
+  "headers": {
+    "content-type": "text/html",
+    "last-modified": "Fri, 09 Apr 2021 13:36:00 GMT",
+    "server": "AmazonS3",
+    "content-encoding": "br",
+    "date": "Sat, 10 Apr 2021 01:10:24 GMT",
+    "cache-control": "max-age=0,no-cache,no-store,must-revalidate",
+    "etag": "W/\"d244e86959c58e36881142cedce4e406\"",
+    "vary": "Accept-Encoding",
+    "x-cache": "RefreshHit from cloudfront",
+    "via": "1.1 55fa3dde23353cff6cf7a09eb763933c.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "IAD79-C3",
+    "x-amz-cf-id": "QOy3X0Ja4zIIVU2U_gkL-F98sWc9vFjlhgCHv4Glzr8FtZwMmnc1qg=="
+  },
+  "endpoints": [
+    {
+      "hostname": "dossierfacile.fr",
+      "ip": "13.32.207.37",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "www.google-analytics.com",
+      "ip": "172.217.2.110",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "www.googletagmanager.com",
+      "ip": "172.217.13.72",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "stats.g.doubleclick.net",
+      "ip": "209.85.144.155",
+      "geoip": {
+        "city": {
+          "geoname_id": 4852832,
+          "names": {
+            "en": "Council Bluffs",
+            "ja": "カウンシルブラフス",
+            "ru": "Каунсил-Блафс",
+            "zh-CN": "康瑟尔布拉夫斯"
+          }
+        },
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 41.2619,
+          "longitude": -95.8608,
+          "metro_code": 652,
+          "time_zone": "America/Chicago"
+        },
+        "postal": {
+          "code": "51502"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 4862182,
+            "iso_code": "IA",
+            "names": {
+              "de": "Iowa",
+              "en": "Iowa",
+              "es": "Iowa",
+              "fr": "Iowa",
+              "ja": "アイオワ州",
+              "pt-BR": "Iova",
+              "ru": "Айова",
+              "zh-CN": "艾奥瓦州"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
