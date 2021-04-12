@@ -1,0 +1,225 @@
+{
+  "trackers": [
+    {
+      "type": "unknown",
+      "url": "https://images.unsplash.com/photo-1516490981167-dc990a242afe?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "type": "unknown",
+      "url": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+    }
+  ],
+  "cookies": [
+    {
+      "name": "_pk_ses.69.9a49",
+      "value": "1",
+      "domain": "blog.beta.gouv.fr",
+      "path": "/",
+      "expires": 1618190327,
+      "size": 16,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "_pk_id.69.9a49",
+      "value": "2a3eb23314b41ad8.1618188528.1.1618188528.1618188528.",
+      "domain": "blog.beta.gouv.fr",
+      "path": "/",
+      "expires": 1652143728,
+      "size": 66,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    }
+  ],
+  "headers": {
+    "cache-control": "public, max-age=0, must-revalidate",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Mon, 12 Apr 2021 00:48:46 GMT",
+    "etag": "\"1af38d6cd84886e42b31f13911bab680-ssl-df\"",
+    "strict-transport-security": "max-age=31536000",
+    "content-encoding": "br",
+    "content-length": "7263",
+    "age": "1",
+    "server": "Netlify",
+    "vary": "Accept-Encoding",
+    "x-nf-request-id": "a165693b-bcc3-4c0c-b469-ed71ca9aa779-5505497"
+  },
+  "endpoints": [
+    {
+      "hostname": "blog.beta.gouv.fr",
+      "ip": "54.206.231.79",
+      "geoip": {
+        "city": {
+          "geoname_id": 2147714,
+          "names": {
+            "de": "Sydney",
+            "en": "Sydney",
+            "es": "Sídney",
+            "fr": "Sydney",
+            "ja": "シドニー",
+            "pt-BR": "Sydney",
+            "ru": "Сидней",
+            "zh-CN": "悉尼"
+          }
+        },
+        "continent": {
+          "code": "OC",
+          "geoname_id": 6255151,
+          "names": {
+            "de": "Ozeanien",
+            "en": "Oceania",
+            "es": "Oceanía",
+            "fr": "Océanie",
+            "ja": "オセアニア",
+            "pt-BR": "Oceania",
+            "ru": "Океания",
+            "zh-CN": "大洋洲"
+          }
+        },
+        "country": {
+          "geoname_id": 2077456,
+          "iso_code": "AU",
+          "names": {
+            "de": "Australien",
+            "en": "Australia",
+            "es": "Australia",
+            "fr": "Australie",
+            "ja": "オーストラリア",
+            "pt-BR": "Austrália",
+            "ru": "Австралия",
+            "zh-CN": "澳大利亚"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": -33.8591,
+          "longitude": 151.2002,
+          "time_zone": "Australia/Sydney"
+        },
+        "postal": {
+          "code": "2000"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 2155400,
+            "iso_code": "NSW",
+            "names": {
+              "en": "New South Wales",
+              "fr": "Nouvelle-Galles du Sud",
+              "pt-BR": "Nova Gales do Sul",
+              "ru": "Новый Южный Уэльс"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "images.unsplash.com",
+      "ip": "151.101.54.208",
+      "geoip": {
+        "city": {
+          "geoname_id": 5809844,
+          "names": {
+            "de": "Seattle",
+            "en": "Seattle",
+            "es": "Seattle",
+            "fr": "Seattle",
+            "ja": "シアトル",
+            "pt-BR": "Seattle",
+            "ru": "Сиэтл"
+          }
+        },
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 47.6032,
+          "longitude": -122.3412,
+          "metro_code": 819,
+          "time_zone": "America/Los_Angeles"
+        },
+        "postal": {
+          "code": "98111"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5815135,
+            "iso_code": "WA",
+            "names": {
+              "en": "Washington",
+              "es": "Washington",
+              "fr": "Washington",
+              "ja": "ワシントン州",
+              "ru": "Вашингтон",
+              "zh-CN": "华盛顿州"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
