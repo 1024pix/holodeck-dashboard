@@ -1,0 +1,25 @@
+{
+  "host": "openacademie.beta.gouv.fr",
+  "port": 443,
+  "protocol": "http",
+  "isPublic": false,
+  "status": "READY",
+  "startTime": 1618191224415,
+  "testTime": 1618191317553,
+  "engineVersion": "2.1.8",
+  "criteriaVersion": "2009q",
+  "endpoints": [
+    {
+      "ipAddress": "167.99.242.112",
+      "statusMessage": "Ready",
+      "grade": "A+",
+      "gradeTrustIgnored": "A+",
+      "hasWarnings": false,
+      "isExceptional": true,
+      "progress": 100,
+      "duration": 92693,
+      "eta": 5,
+      "delegation": 1
+    }
+  ]
+}
