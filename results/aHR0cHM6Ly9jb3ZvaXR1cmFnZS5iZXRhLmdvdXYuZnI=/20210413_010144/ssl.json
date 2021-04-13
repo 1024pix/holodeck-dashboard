@@ -1,0 +1,39 @@
+{
+  "host": "covoiturage.beta.gouv.fr",
+  "port": 443,
+  "protocol": "http",
+  "isPublic": false,
+  "status": "READY",
+  "startTime": 1618275443020,
+  "testTime": 1618275631270,
+  "engineVersion": "2.1.8",
+  "criteriaVersion": "2009q",
+  "endpoints": [
+    {
+      "ipAddress": "2a00:b6e0:1:20:2:0:0:1",
+      "serverName": "http1.paris1.alwaysdata.com",
+      "statusMessage": "Ready",
+      "grade": "A",
+      "gradeTrustIgnored": "A",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 74407,
+      "eta": 9,
+      "delegation": 1
+    },
+    {
+      "ipAddress": "185.31.40.11",
+      "serverName": "http1.paris1.alwaysdata.com",
+      "statusMessage": "Ready",
+      "grade": "A",
+      "gradeTrustIgnored": "A",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 112392,
+      "eta": 6,
+      "delegation": 1
+    }
+  ]
+}
