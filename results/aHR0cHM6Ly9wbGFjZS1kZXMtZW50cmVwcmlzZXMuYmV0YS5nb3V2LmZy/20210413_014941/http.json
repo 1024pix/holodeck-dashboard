@@ -1,0 +1,204 @@
+{
+  "url": "https://place-des-entreprises.beta.gouv.fr",
+  "algorithm_version": 2,
+  "end_time": "Mon, 12 Apr 2021 15:52:58 GMT",
+  "grade": "D+",
+  "hidden": true,
+  "likelihood_indicator": "MEDIUM",
+  "response_headers": {
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Type": "text/html; charset=utf-8",
+    "Date": "Mon, 12 Apr 2021 15:52:57 GMT",
+    "ETag": "W/\"dc55789d85993c919bda7f6ba6a60b3e\"",
+    "Server": "openresty",
+    "Set-Cookie": "_PlaceDesEntreprises_session=jVvnL4dnljMnsBtbSl3Vx50i6AcuEb%2Bgm%2Fgn%2Bi1Uq%2BlzWgP1kK5zfLv1D18G6%2FRgpfn%2F%2Fpe8p1LQLmiHNX8lCnetwhIDLq91Et9RVARyHsQUkkN%2FOOC1oiG8yn3miGC9I4xVXnakXl6PFQp%2BffGlbWW8qBwbxi9o5RXGbKAviZX6DYNEs1NSfRbzKJW9VHXhlOV8EOmoecO0Fp8B8gDvlRauTBUPcWxfi9a4Dw%2FlerUmyneNT4s7SBxFnm065viRXGQiU0kjxlKbFG8p5Is%2F2dLhJ5NCBCI8AJAVUpUQTVI9lqDJtJ20IN8n5vRQPqtVQj0Y9tB%2BZyQO8RLkq8%2B%2B7J9moVdgf2QABwIzL9EpAImE9tL2Mf4X4kZ%2Bf1dYeMcWqfvr1yeUk4uzDYE%2FvZOLFkb6Id3qWHAYd2PzeXnbtotj4El1QF5P81K%2BJxAyHKnDwIZ5V7XOH1iVoNzCnSMgOH76IzctYQWidnMDLA%3D%3D--UcZIHLmIOyHDGeHJ--IZAL%2FFEAv9L4TfkunuL4LQ%3D%3D; path=/; secure; HttpOnly; SameSite=Strict",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Transfer-Encoding": "chunked",
+    "X-Request-ID": "83ded853-7e99-4cbf-b4e4-b01a18fad094, 83ded853-7e99-4cbf-b4e4-b01a18fad094",
+    "X-Runtime": "0.057396"
+  },
+  "scan_id": 18656937,
+  "score": 40,
+  "start_time": "Mon, 12 Apr 2021 15:52:54 GMT",
+  "state": "FINISHED",
+  "status_code": 200,
+  "tests_failed": 4,
+  "tests_passed": 8,
+  "tests_quantity": 12,
+  "details": {
+    "content-security-policy": {
+      "expectation": "csp-implemented-with-no-unsafe",
+      "name": "content-security-policy",
+      "output": {
+        "data": null,
+        "http": false,
+        "meta": false,
+        "policy": null
+      },
+      "pass": false,
+      "result": "csp-not-implemented",
+      "score_description": "Content Security Policy (CSP) header not implemented",
+      "score_modifier": -25
+    },
+    "contribute": {
+      "expectation": "contribute-json-only-required-on-mozilla-properties",
+      "name": "contribute",
+      "output": {
+        "data": null
+      },
+      "pass": true,
+      "result": "contribute-json-only-required-on-mozilla-properties",
+      "score_description": "Contribute.json isn't required on websites that don't belong to Mozilla",
+      "score_modifier": 0
+    },
+    "cookies": {
+      "expectation": "cookies-secure-with-httponly-sessions",
+      "name": "cookies",
+      "output": {
+        "data": {
+          "_PlaceDesEntreprises_session": {
+            "domain": "place-des-entreprises.beta.gouv.fr",
+            "expires": null,
+            "httponly": true,
+            "max-age": null,
+            "path": "/",
+            "port": null,
+            "samesite": "Strict",
+            "secure": true
+          }
+        },
+        "sameSite": true
+      },
+      "pass": true,
+      "result": "cookies-secure-with-httponly-sessions-and-samesite",
+      "score_description": "All cookies use the Secure flag, session cookies use the HttpOnly flag, and cross-origin restrictions are in place via the SameSite flag",
+      "score_modifier": 5
+    },
+    "cross-origin-resource-sharing": {
+      "expectation": "cross-origin-resource-sharing-not-implemented",
+      "name": "cross-origin-resource-sharing",
+      "output": {
+        "data": {
+          "acao": null,
+          "clientaccesspolicy": null,
+          "crossdomain": null
+        }
+      },
+      "pass": true,
+      "result": "cross-origin-resource-sharing-not-implemented",
+      "score_description": "Content is not visible via cross-origin resource sharing (CORS) files or headers",
+      "score_modifier": 0
+    },
+    "public-key-pinning": {
+      "expectation": "hpkp-not-implemented",
+      "name": "public-key-pinning",
+      "output": {
+        "data": null,
+        "includeSubDomains": false,
+        "max-age": null,
+        "numPins": null,
+        "preloaded": false
+      },
+      "pass": true,
+      "result": "hpkp-not-implemented",
+      "score_description": "HTTP Public Key Pinning (HPKP) header not implemented",
+      "score_modifier": 0
+    },
+    "redirection": {
+      "expectation": "redirection-to-https",
+      "name": "redirection",
+      "output": {
+        "destination": "https://place-des-entreprises.beta.gouv.fr/",
+        "redirects": true,
+        "route": [
+          "http://place-des-entreprises.beta.gouv.fr/",
+          "https://place-des-entreprises.beta.gouv.fr/"
+        ],
+        "status_code": 200
+      },
+      "pass": true,
+      "result": "redirection-to-https",
+      "score_description": "Initial redirection is to HTTPS on same host, final destination is HTTPS",
+      "score_modifier": 0
+    },
+    "referrer-policy": {
+      "expectation": "referrer-policy-private",
+      "name": "referrer-policy",
+      "output": {
+        "data": null,
+        "http": false,
+        "meta": false
+      },
+      "pass": true,
+      "result": "referrer-policy-not-implemented",
+      "score_description": "Referrer-Policy header not implemented",
+      "score_modifier": 0
+    },
+    "strict-transport-security": {
+      "expectation": "hsts-implemented-max-age-at-least-six-months",
+      "name": "strict-transport-security",
+      "output": {
+        "data": "max-age=31536000; includeSubDomains",
+        "includeSubDomains": true,
+        "max-age": 31536000,
+        "preload": false,
+        "preloaded": false
+      },
+      "pass": true,
+      "result": "hsts-implemented-max-age-at-least-six-months",
+      "score_description": "HTTP Strict Transport Security (HSTS) header set to a minimum of six months (15768000)",
+      "score_modifier": 0
+    },
+    "subresource-integrity": {
+      "expectation": "sri-implemented-and-external-scripts-loaded-securely",
+      "name": "subresource-integrity",
+      "output": {
+        "data": {
+          "https://browser.sentry-cdn.com/6.2.3/bundle.min.js": {
+            "crossorigin": "anonymous",
+            "integrity": "sha384-n6TNefxJMUTqJauZtoDyDhAs5Ng0VzcMTy0/afmyZoVZpaQ2clYR1LBa4SqhVySs"
+          }
+        }
+      },
+      "pass": true,
+      "result": "sri-implemented-and-external-scripts-loaded-securely",
+      "score_description": "Subresource Integrity (SRI) is implemented and all scripts are loaded securely",
+      "score_modifier": 5
+    },
+    "x-content-type-options": {
+      "expectation": "x-content-type-options-nosniff",
+      "name": "x-content-type-options",
+      "output": {
+        "data": null
+      },
+      "pass": false,
+      "result": "x-content-type-options-not-implemented",
+      "score_description": "X-Content-Type-Options header not implemented",
+      "score_modifier": -5
+    },
+    "x-frame-options": {
+      "expectation": "x-frame-options-sameorigin-or-deny",
+      "name": "x-frame-options",
+      "output": {
+        "data": null
+      },
+      "pass": false,
+      "result": "x-frame-options-not-implemented",
+      "score_description": "X-Frame-Options (XFO) header not implemented",
+      "score_modifier": -20
+    },
+    "x-xss-protection": {
+      "expectation": "x-xss-protection-1-mode-block",
+      "name": "x-xss-protection",
+      "output": {
+        "data": null
+      },
+      "pass": false,
+      "result": "x-xss-protection-not-implemented",
+      "score_description": "X-XSS-Protection header not implemented",
+      "score_modifier": -10
+    }
+  }
+}
