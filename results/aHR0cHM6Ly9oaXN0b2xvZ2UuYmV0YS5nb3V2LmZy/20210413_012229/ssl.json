@@ -1,0 +1,38 @@
+{
+  "host": "histologe.beta.gouv.fr",
+  "port": 443,
+  "protocol": "http",
+  "isPublic": false,
+  "status": "READY",
+  "startTime": 1618276521459,
+  "testTime": 1618276825962,
+  "engineVersion": "2.1.8",
+  "criteriaVersion": "2009q",
+  "endpoints": [
+    {
+      "ipAddress": "188.165.6.81",
+      "serverName": "cluster024.hosting.ovh.net",
+      "statusMessage": "Ready",
+      "grade": "B",
+      "gradeTrustIgnored": "B",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 153575,
+      "eta": 1,
+      "delegation": 1
+    },
+    {
+      "ipAddress": "2001:41d0:301:3:0:0:0:24",
+      "statusMessage": "Ready",
+      "grade": "B",
+      "gradeTrustIgnored": "B",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 150230,
+      "eta": 1,
+      "delegation": 1
+    }
+  ]
+}
