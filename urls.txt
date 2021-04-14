@@ -23,9 +23,11 @@ https://histologe.beta.gouv.fr
 https://kelrisks.beta.gouv.fr
 https://lemarche.inclusion.beta.gouv.fr
 https://ma-cantine.beta.gouv.fr
+https://mes-aides.1jeune1solution.beta.gouv.fr
 https://mobilic.beta.gouv.fr
 https://mrs.beta.gouv.fr
 https://openacademie.beta.gouv.fr
+https://openfisa.mes-aides.1jeune1solution.beta.gouv.fr
 https://pad.incubateur.net
 https://partaj.beta.gouv.fr
 https://pilotage.inclusion.beta.gouv.fr
