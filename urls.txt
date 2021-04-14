@@ -9,6 +9,7 @@ https://beta.gouv.fr
 https://blog.beta.gouv.fr
 https://camino.beta.gouv.fr
 https://carbure.beta.gouv.fr
+https://cartobio.org
 https://catalogue.apprentissage.beta.gouv.fr
 https://chauffage-urbain.beta.gouv.fr
 https://classea12.beta.gouv.fr
