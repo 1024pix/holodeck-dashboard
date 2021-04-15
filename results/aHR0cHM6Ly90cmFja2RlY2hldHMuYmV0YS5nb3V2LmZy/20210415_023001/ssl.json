@@ -1,0 +1,65 @@
+{
+  "host": "trackdechets.beta.gouv.fr",
+  "port": 443,
+  "protocol": "http",
+  "isPublic": false,
+  "status": "READY",
+  "startTime": 1618453393724,
+  "testTime": 1618453756897,
+  "engineVersion": "2.1.8",
+  "criteriaVersion": "2009q",
+  "endpoints": [
+    {
+      "ipAddress": "185.199.111.153",
+      "serverName": "cdn-185-199-111-153.github.com",
+      "statusMessage": "Ready",
+      "grade": "A",
+      "gradeTrustIgnored": "A",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 90772,
+      "eta": 16,
+      "delegation": 1
+    },
+    {
+      "ipAddress": "185.199.108.153",
+      "serverName": "cdn-185-199-108-153.github.com",
+      "statusMessage": "Ready",
+      "grade": "A",
+      "gradeTrustIgnored": "A",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 90452,
+      "eta": 12,
+      "delegation": 1
+    },
+    {
+      "ipAddress": "185.199.110.153",
+      "serverName": "cdn-185-199-110-153.github.com",
+      "statusMessage": "Ready",
+      "grade": "A",
+      "gradeTrustIgnored": "A",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 90277,
+      "eta": 8,
+      "delegation": 1
+    },
+    {
+      "ipAddress": "185.199.109.153",
+      "serverName": "cdn-185-199-109-153.github.com",
+      "statusMessage": "Ready",
+      "grade": "A",
+      "gradeTrustIgnored": "A",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 90545,
+      "eta": 4,
+      "delegation": 1
+    }
+  ]
+}
