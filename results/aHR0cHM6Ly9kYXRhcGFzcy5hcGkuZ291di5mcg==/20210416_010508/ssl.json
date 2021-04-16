@@ -1,0 +1,25 @@
+{
+  "host": "datapass.api.gouv.fr",
+  "port": 443,
+  "protocol": "http",
+  "isPublic": false,
+  "status": "READY",
+  "startTime": 1618534951671,
+  "testTime": 1618535071538,
+  "engineVersion": "2.1.8",
+  "criteriaVersion": "2009q",
+  "endpoints": [
+    {
+      "ipAddress": "149.202.178.67",
+      "statusMessage": "Ready",
+      "grade": "B",
+      "gradeTrustIgnored": "B",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 119317,
+      "eta": 0,
+      "delegation": 1
+    }
+  ]
+}
