@@ -1,0 +1,26 @@
+{
+  "host": "mes-aides.1jeune1solution.beta.gouv.fr",
+  "port": 443,
+  "protocol": "http",
+  "isPublic": false,
+  "status": "READY",
+  "startTime": 1618709774684,
+  "testTime": 1618709898057,
+  "engineVersion": "2.1.8",
+  "criteriaVersion": "2009q",
+  "endpoints": [
+    {
+      "ipAddress": "5.135.137.147",
+      "serverName": "ns321596.ip-5-135-137.eu",
+      "statusMessage": "Ready",
+      "grade": "B",
+      "gradeTrustIgnored": "B",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 122836,
+      "eta": 154,
+      "delegation": 1
+    }
+  ]
+}
