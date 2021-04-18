@@ -1,0 +1,26 @@
+{
+  "host": "cartobio.org",
+  "port": 443,
+  "protocol": "http",
+  "isPublic": false,
+  "status": "READY",
+  "startTime": 1618707224112,
+  "testTime": 1618707291156,
+  "engineVersion": "2.1.8",
+  "criteriaVersion": "2009q",
+  "endpoints": [
+    {
+      "ipAddress": "91.134.137.224",
+      "serverName": "224.ip-91-134-137.eu",
+      "statusMessage": "Ready",
+      "grade": "A",
+      "gradeTrustIgnored": "A",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 66469,
+      "eta": 1345,
+      "delegation": 1
+    }
+  ]
+}
