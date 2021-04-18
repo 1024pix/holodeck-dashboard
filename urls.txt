@@ -28,7 +28,7 @@ https://mes-aides.1jeune1solution.beta.gouv.fr
 https://mobilic.beta.gouv.fr
 https://mrs.beta.gouv.fr
 https://openacademie.beta.gouv.fr
-https://openfisa.mes-aides.1jeune1solution.beta.gouv.fr
+https://openfisca.mes-aides.1jeune1solution.beta.gouv.fr
 https://pad.incubateur.net
 https://partaj.beta.gouv.fr
 https://pilotage.inclusion.beta.gouv.fr
