@@ -1,0 +1,61 @@
+{
+  "host": "recosante.beta.gouv.fr",
+  "port": 443,
+  "protocol": "http",
+  "isPublic": false,
+  "status": "READY",
+  "startTime": 1618711890985,
+  "testTime": 1618712562540,
+  "engineVersion": "2.1.8",
+  "criteriaVersion": "2009q",
+  "endpoints": [
+    {
+      "ipAddress": "46.252.181.104",
+      "statusMessage": "Ready",
+      "grade": "B",
+      "gradeTrustIgnored": "B",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 164701,
+      "eta": 148,
+      "delegation": 1
+    },
+    {
+      "ipAddress": "185.42.117.108",
+      "statusMessage": "Ready",
+      "grade": "B",
+      "gradeTrustIgnored": "B",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 169926,
+      "eta": 147,
+      "delegation": 1
+    },
+    {
+      "ipAddress": "185.42.117.109",
+      "statusMessage": "Ready",
+      "grade": "B",
+      "gradeTrustIgnored": "B",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 170526,
+      "eta": 146,
+      "delegation": 1
+    },
+    {
+      "ipAddress": "46.252.181.103",
+      "statusMessage": "Ready",
+      "grade": "B",
+      "gradeTrustIgnored": "B",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 164912,
+      "eta": 145,
+      "delegation": 1
+    }
+  ]
+}
