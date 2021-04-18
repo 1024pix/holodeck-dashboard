@@ -1,0 +1,74 @@
+{
+  "trackers": [],
+  "cookies": [],
+  "headers": {
+    "content-type": "text/html",
+    "last-modified": "Wed, 14 Apr 2021 14:50:12 GMT",
+    "server": "AmazonS3",
+    "content-encoding": "gzip",
+    "date": "Sun, 18 Apr 2021 01:13:01 GMT",
+    "cache-control": "max-age=0,no-cache,no-store,must-revalidate",
+    "etag": "W/\"326467dd78e030f6f2773f13d4aff6c6\"",
+    "vary": "Accept-Encoding",
+    "x-cache": "RefreshHit from cloudfront",
+    "via": "1.1 5deb9d2ed43bf31ffeff8f1ddbfe731a.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "DFW55-C1",
+    "x-amz-cf-id": "LDianLeNp0iP9WRIv27jFNPsVg2254TUK6hDh364lkWlIiUm2QGIeQ=="
+  },
+  "endpoints": [
+    {
+      "hostname": "dossierfacile.fr",
+      "ip": "13.249.75.33",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    }
+  ]
+}
