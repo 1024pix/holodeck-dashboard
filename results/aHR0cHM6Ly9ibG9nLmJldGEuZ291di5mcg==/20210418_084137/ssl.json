@@ -1,0 +1,61 @@
+{
+  "host": "blog.beta.gouv.fr",
+  "port": 443,
+  "protocol": "http",
+  "isPublic": false,
+  "status": "READY",
+  "startTime": 1618706735642,
+  "testTime": 1618706964607,
+  "engineVersion": "2.1.8",
+  "criteriaVersion": "2009q",
+  "endpoints": [
+    {
+      "ipAddress": "2604:a880:400:d0:0:0:1741:7001",
+      "statusMessage": "Ready",
+      "grade": "A+",
+      "gradeTrustIgnored": "A+",
+      "hasWarnings": false,
+      "isExceptional": true,
+      "progress": 100,
+      "duration": 56741,
+      "eta": 1338,
+      "delegation": 1
+    },
+    {
+      "ipAddress": "2604:a880:400:d0:0:0:f61:9001",
+      "statusMessage": "Ready",
+      "grade": "A+",
+      "gradeTrustIgnored": "A+",
+      "hasWarnings": false,
+      "isExceptional": true,
+      "progress": 100,
+      "duration": 56750,
+      "eta": 1335,
+      "delegation": 1
+    },
+    {
+      "ipAddress": "157.245.242.152",
+      "statusMessage": "Ready",
+      "grade": "A+",
+      "gradeTrustIgnored": "A+",
+      "hasWarnings": false,
+      "isExceptional": true,
+      "progress": 100,
+      "duration": 58046,
+      "eta": 1333,
+      "delegation": 1
+    },
+    {
+      "ipAddress": "167.172.136.193",
+      "statusMessage": "Ready",
+      "grade": "A+",
+      "gradeTrustIgnored": "A+",
+      "hasWarnings": false,
+      "isExceptional": true,
+      "progress": 100,
+      "duration": 57057,
+      "eta": 1330,
+      "delegation": 1
+    }
+  ]
+}
