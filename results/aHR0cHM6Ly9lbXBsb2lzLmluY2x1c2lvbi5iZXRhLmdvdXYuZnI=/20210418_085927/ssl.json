@@ -1,0 +1,61 @@
+{
+  "host": "emplois.inclusion.beta.gouv.fr",
+  "port": 443,
+  "protocol": "http",
+  "isPublic": false,
+  "status": "READY",
+  "startTime": 1618708322515,
+  "testTime": 1618708985511,
+  "engineVersion": "2.1.8",
+  "criteriaVersion": "2009q",
+  "endpoints": [
+    {
+      "ipAddress": "46.252.181.104",
+      "statusMessage": "Ready",
+      "grade": "B",
+      "gradeTrustIgnored": "B",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 163455,
+      "eta": 156,
+      "delegation": 1
+    },
+    {
+      "ipAddress": "185.42.117.108",
+      "statusMessage": "Ready",
+      "grade": "B",
+      "gradeTrustIgnored": "B",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 167683,
+      "eta": 155,
+      "delegation": 1
+    },
+    {
+      "ipAddress": "185.42.117.109",
+      "statusMessage": "Ready",
+      "grade": "B",
+      "gradeTrustIgnored": "B",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 167439,
+      "eta": 154,
+      "delegation": 1
+    },
+    {
+      "ipAddress": "46.252.181.103",
+      "statusMessage": "Ready",
+      "grade": "B",
+      "gradeTrustIgnored": "B",
+      "hasWarnings": false,
+      "isExceptional": false,
+      "progress": 100,
+      "duration": 163091,
+      "eta": 153,
+      "delegation": 1
+    }
+  ]
+}
