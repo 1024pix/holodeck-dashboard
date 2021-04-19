@@ -34,6 +34,7 @@ https://partaj.beta.gouv.fr
 https://pilotage.inclusion.beta.gouv.fr
 https://place-des-entreprises.beta.gouv.fr
 https://potentiel.beta.gouv.fr
+https://rdv-solidarites.fr
 https://recosante.beta.gouv.fr
 https://resorption-bidonvilles.beta.gouv.fr
 https://santepsy.etudiant.gouv.fr
