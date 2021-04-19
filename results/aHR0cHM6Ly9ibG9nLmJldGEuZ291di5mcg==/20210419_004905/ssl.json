@@ -1,0 +1,62 @@
+{
+  "host": "blog.beta.gouv.fr",
+  "port": 443,
+  "protocol": "http",
+  "isPublic": false,
+  "status": "READY",
+  "startTime": 1618793059792,
+  "testTime": 1618793292333,
+  "engineVersion": "2.1.8",
+  "criteriaVersion": "2009q",
+  "endpoints": [
+    {
+      "ipAddress": "2604:a880:400:d0:0:0:1756:9001",
+      "statusMessage": "Ready",
+      "grade": "A+",
+      "gradeTrustIgnored": "A+",
+      "hasWarnings": false,
+      "isExceptional": true,
+      "progress": 100,
+      "duration": 56860,
+      "eta": 11,
+      "delegation": 1
+    },
+    {
+      "ipAddress": "2600:1f18:2489:8200:a007:6646:1f31:908c",
+      "statusMessage": "Ready",
+      "grade": "A+",
+      "gradeTrustIgnored": "A+",
+      "hasWarnings": false,
+      "isExceptional": true,
+      "progress": 100,
+      "duration": 57964,
+      "eta": 8,
+      "delegation": 1
+    },
+    {
+      "ipAddress": "157.245.242.152",
+      "statusMessage": "Ready",
+      "grade": "A+",
+      "gradeTrustIgnored": "A+",
+      "hasWarnings": false,
+      "isExceptional": true,
+      "progress": 100,
+      "duration": 59362,
+      "eta": 5,
+      "delegation": 1
+    },
+    {
+      "ipAddress": "54.205.240.192",
+      "serverName": "ec2-54-205-240-192.compute-1.amazonaws.com",
+      "statusMessage": "Ready",
+      "grade": "A+",
+      "gradeTrustIgnored": "A+",
+      "hasWarnings": false,
+      "isExceptional": true,
+      "progress": 100,
+      "duration": 57986,
+      "eta": 3,
+      "delegation": 1
+    }
+  ]
+}
