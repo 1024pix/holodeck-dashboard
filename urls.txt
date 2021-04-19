@@ -4,6 +4,7 @@ https://adock.beta.gouv.fr
 https://aidantsconnect.beta.gouv.fr
 https://aides-territoires.beta.gouv.fr
 https://aplus.beta.gouv.fr
+https://app.pix.fr
 https://audioconf.numerique.gouv.fr
 https://beta.gouv.fr
 https://blog.beta.gouv.fr
@@ -32,6 +33,7 @@ https://openfisca.mes-aides.1jeune1solution.beta.gouv.fr
 https://pad.incubateur.net
 https://partaj.beta.gouv.fr
 https://pilotage.inclusion.beta.gouv.fr
+https://pix.fr
 https://place-des-entreprises.beta.gouv.fr
 https://potentiel.beta.gouv.fr
 https://rdv-solidarites.fr
